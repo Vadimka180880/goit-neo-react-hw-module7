@@ -17,7 +17,7 @@ const ContactForm = () => {
 
     const phoneRegex = /^\d{3}-\d{2}-\d{2}$/;
     if (!phoneRegex.test(number)) {
-      setError("Invalid phone number format! Use 000:00:00");
+      setError("Invalid phone number format! Use 000-00-00");
       return; 
     }
 
