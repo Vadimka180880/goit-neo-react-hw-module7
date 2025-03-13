@@ -1,0 +1,46 @@
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list li {
+    padding: 10px;
+    border-bottom: 1px solid #111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .list li:last-child {
+    border-bottom: none;
+  }
+  
+  .deleteButton {
+    background-color: #ff4d4d;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .deleteButton:hover {
+    background-color: #cc0000;
+  }
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .infoItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    color: #007bff;
+  }

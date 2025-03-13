@@ -1,0 +1,45 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+  }
+  
+  .contact:last-child {
+    border-bottom: none;
+  }
+  
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .name {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .number {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .deleteButton {
+    background-color: #ff4d4d;
+    padding: 8px;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .deleteButton:hover {
+    background-color: #cc0000;
+  }
+  
