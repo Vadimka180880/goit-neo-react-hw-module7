@@ -55,7 +55,7 @@ const ContactForm = () => {
           type="text"
           value={number}
           onChange={(e) => setNumber(e.target.value)}
-          placeholder="Number (000:00:00)"
+          placeholder="Number (000-00-00)"
           required
           className={styles.input}
         />
